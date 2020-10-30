@@ -1,9 +1,9 @@
 {
-  "name": "imagemin-mozjpeg",
+  "name": "imagemin-mozjpeg-changba",
   "version": "9.0.0",
   "description": "Imagemin plugin for mozjpeg",
   "license": "MIT",
-  "repository": "imagemin/imagemin-mozjpeg",
+  "repository": "ChangbaFE/imagemin-mozjpeg",
   "author": {
     "name": "Kevin Mårtensson",
     "email": "kevinmartensson@gmail.com",
@@ -43,7 +43,7 @@
   "dependencies": {
     "execa": "^4.0.0",
     "is-jpg": "^2.0.0",
-    "mozjpeg": "^7.0.0"
+    "mozjpeg-changba": "^7.0.0"
   },
   "devDependencies": {
     "ava": "^3.8.0",

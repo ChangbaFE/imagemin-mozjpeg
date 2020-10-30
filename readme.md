@@ -1,33 +1,30 @@
-# imagemin-mozjpeg [![Build Status](https://travis-ci.org/imagemin/imagemin-mozjpeg.svg?branch=master)](https://travis-ci.org/imagemin/imagemin-mozjpeg)
+# imagemin-mozjpeg-changba [![Build Status](https://travis-ci.org/ChangbaFE/imagemin-mozjpeg.svg?branch=master)](https://travis-ci.org/ChangbaFE/imagemin-mozjpeg)
 
 > [Imagemin](https://github.com/imagemin/imagemin) plugin for [mozjpeg](https://github.com/mozilla/mozjpeg)
-
 
 ## Install
 
 ```
-$ npm install imagemin-mozjpeg
+$ npm install imagemin-mozjpeg-changba
 ```
-
 
 ## Usage
 
 ```js
 const imagemin = require('imagemin');
-const imageminMozjpeg = require('imagemin-mozjpeg');
+const imageminMozjpeg = require('imagemin-mozjpeg-changba');
 
 (async () => {
-	await imagemin(['images/*.jpg'], {
-		destination: 'build/images',
-		plugins: [
-			imageminMozjpeg()
-		]
-	});
+  await imagemin(['images/*.jpg'], {
+    destination: 'build/images',
+    plugins: [
+      imageminMozjpeg()
+    ]
+  });
 
-	console.log('Images optimized');
+  console.log('Images optimized');
 })();
 ```
-
 
 ## API
 
@@ -171,7 +168,6 @@ Set component sampling factors. Each item should be in the format `HxV`, for exa
 Type: `buffer`
 
 Buffer to optimize.
-
 
 ## License
 
